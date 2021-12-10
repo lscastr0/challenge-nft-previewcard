@@ -64,7 +64,6 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
     margin: 20px 0;
-    
 }
 
 #content-bottom{
@@ -105,7 +104,6 @@ hr{
     background-color: var(--line);
     height: 1px;
     border: none;
-
 }
 
 #profile img{
