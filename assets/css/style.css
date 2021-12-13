@@ -19,9 +19,12 @@ html{
     font-size: 62.5%;
 }
 
-main{
-    min-width: 375px;
+body{
     background-color: var(--main-BG);
+}
+
+main{
+    min-width: 37.5rem;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -33,9 +36,9 @@ section{
     background-color: var(--card-BG);
     font-size: 1.6rem;
     color: white;
-    padding: 15px;
+    padding: 1.5rem;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .header{
@@ -46,24 +49,24 @@ section{
 .header > img{
     display: inline-block;
     width: 96%;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 #content{
     width: 96%;
-    padding-left: 7px;
+    padding-left: 0.7rem;
     color: var(--Soft-blue);
 }
 
 h1{
-    margin: 10px 0;
+    margin: 1rem 0;
     color: white;
 }
 
 p{
     font-size: 1.8rem;
     font-weight: 300;
-    margin: 20px 0;
+    margin: 2rem 0;
 }
 
 #content-bottom{
@@ -80,10 +83,10 @@ span{
 
 span::before{
     display: inline-block;
-    padding-right: 7px;
+    padding-right: 0.7rem;
     background-repeat: no-repeat;
     position: relative;
-    top: 3px;
+    top: 0.3rem;
 }
 
 #content-left{
@@ -100,23 +103,23 @@ span::before{
 }
 
 hr{
-    margin: 18px 0;
+    margin: 1.8rem 0;
     background-color: var(--line);
-    height: 1px;
+    height: 0.1rem;
     border: none;
 }
 
 #profile img{
     width: 12%;
-    border: 1px solid white;
+    border: 0.1rem solid white;
     border-radius: 50%;
     position: relative;
-    top: 10px;
+    top: 1rem;
 }
 
 #profile span{
     display: inline-block;
-    padding-left: 6px;
+    padding-left: 0.6rem;
 }
 
 .color{
