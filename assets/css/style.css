@@ -42,18 +42,36 @@ section{
 }
 
 .header{
+    position: relative;
     text-align: center;
 }
 
-
-.header > img{
+.image{
     display: inline-block;
     width: 96%;
     border-radius: 1rem;
+    opacity: 1;
+    transition: 1s ease;
+    backface-visibility: hidden;
 }
 
-img:hover{
-    background-image: url(../images/icon-view.svg);
+.image2{
+    display: block;
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header:hover .image{
+    opacity: 0.3;
+}
+
+.header:hover .image2{
+    opacity: 1;
 }
 
 #content{
